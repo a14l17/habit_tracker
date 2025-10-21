@@ -17,11 +17,18 @@
   </div>
 
   <!-- Add Habit Popup (hidden by default) -->
+
   <div id="addHabitPopup" class="popup hidden">
+  <div class="popup-content">
+    <h2>Add New Habit</h2>
     <input type="text" id="newHabitInput" placeholder="Enter habit name" />
-    <button id="addHabitBtn">Add Habit</button>
-    <button id="cancelAddBtn">Cancel</button>
+    <div class="popup-buttons">
+      <button id="addHabitBtn">Add Habit</button>
+      <button id="cancelAddBtn">Cancel</button>
+    </div>
   </div>
+</div>
+
 
   <!-- Habit List Container -->
   <div class="habit-list" id="habitList"></div>
