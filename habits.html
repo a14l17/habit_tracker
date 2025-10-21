@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Habits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Your Habits</h1>
+
+  <!-- Add & Reset Buttons -->
+  <div style="text-align: center;">
+    <button id="showAddHabitBtn">+ Add New Habit</button>
+    <button id="resetBtn">Reset All Habits</button>
+  </div>
+
+  <!-- Add Habit Popup (hidden by default) -->
+  <div id="addHabitPopup" class="popup hidden">
+    <input type="text" id="newHabitInput" placeholder="Enter habit name" />
+    <button id="addHabitBtn">Add Habit</button>
+    <button id="cancelAddBtn">Cancel</button>
+  </div>
+
+  <!-- Habit List Container -->
+  <div class="habit-list" id="habitList"></div>
+
+  <script src="habits.js"></script>
+</body>
+</html>
