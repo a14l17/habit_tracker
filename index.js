@@ -1,3 +1,5 @@
+
+//creates a constant which correlates to the HTML element of the name in ""
 const habitForm = document.getElementById('habitForm');
 const habitInput = document.getElementById('habitInput');
 
